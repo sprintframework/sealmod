@@ -13,7 +13,7 @@ import (
 	"crypto/sha512"
 	"crypto/x509"
 	"encoding/pem"
-	"github.com/codeallergy/seal"
+	"github.com/sprintframework/seal"
 	"github.com/pkg/errors"
 	"reflect"
 )

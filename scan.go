@@ -7,7 +7,7 @@ package sealmod
 
 import (
 	"github.com/codeallergy/glue"
-	"github.com/codeallergy/seal"
+	"github.com/sprintframework/seal"
 )
 
 type sealScanner struct {

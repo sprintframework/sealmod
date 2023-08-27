@@ -6,7 +6,7 @@
 package sealmod_test
 
 import (
-	"github.com/codeallergy/sealmod"
+	"github.com/sprintframework/sealmod"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

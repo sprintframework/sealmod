@@ -8,7 +8,7 @@ package sealmod
 import (
 	"crypto/cipher"
 	"crypto/rand"
-	"github.com/codeallergy/seal"
+	"github.com/sprintframework/seal"
 	"github.com/pkg/errors"
 	"io"
 )

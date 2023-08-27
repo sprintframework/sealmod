@@ -1,11 +1,11 @@
-module github.com/codeallergy/sealmod
+module github.com/sprintframework/sealmod
 
 go 1.17
 
 require (
 	github.com/codeallergy/glue v1.1.0
-	github.com/codeallergy/seal v1.1.0
 	github.com/pkg/errors v0.9.1
+	github.com/sprintframework/seal v1.0.0
 	github.com/stretchr/testify v1.8.2
 	golang.org/x/crypto v0.6.0
 )

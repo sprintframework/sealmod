@@ -9,7 +9,7 @@ import (
 	"crypto"
 	"crypto/rand"
 	"encoding/base64"
-	"github.com/codeallergy/seal"
+	"github.com/sprintframework/seal"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/nacl/box"
 	"io"
