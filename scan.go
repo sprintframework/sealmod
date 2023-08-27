@@ -14,7 +14,7 @@ type sealScanner struct {
 	Scan     []interface{}
 }
 
-func SealScanner(scan... interface{}) glue.Scanner {
+func Scanner(scan... interface{}) glue.Scanner {
 	return &sealScanner{
 		Scan: scan,
 	}
