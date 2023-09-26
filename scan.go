@@ -5,30 +5,6 @@
 
 package sealmod
 
-import (
-	"github.com/codeallergy/glue"
-	"github.com/sprintframework/seal"
-)
-
-type sealScanner struct {
-	Scan     []interface{}
+var SealServices = []interface{} {
+	SealService(),
 }
-
-func Scanner(scan... interface{}) glue.Scanner {
-	return &sealScanner{
-		Scan: scan,
-	}
-}
-
-func (t *sealScanner) Beans() []interface{} {
-
-	beans := []interface{}{
-		SealService(),
-		&struct {
-			SealService []seal.SealService `inject`
-		}{},
-	}
-
-	return append(beans, t.Scan...)
-}
-
